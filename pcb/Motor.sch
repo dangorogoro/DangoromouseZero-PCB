@@ -1,0 +1,225 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L REF1933:DRV8835 U?
+U 1 1 61358D09
+P 2450 4000
+F 0 "U?" H 2200 4450 60  0000 C CNN
+F 1 "DRV8835" H 2150 4350 60  0000 C CNN
+F 2 "" H 1400 4200 60  0000 C CNN
+F 3 "" H 1400 4200 60  0000 C CNN
+	1    2450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 61359DC6
+P 4950 4350
+F 0 "J?" H 4978 4326 50  0000 L CNN
+F 1 "Left_Motor" H 4978 4235 50  0000 L CNN
+F 2 "" H 4950 4350 50  0001 C CNN
+F 3 "~" H 4950 4350 50  0001 C CNN
+	1    4950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 6135AD13
+P 4950 5150
+F 0 "J?" H 4978 5126 50  0000 L CNN
+F 1 "Right_Motor" H 4978 5035 50  0000 L CNN
+F 2 "" H 4950 5150 50  0001 C CNN
+F 3 "~" H 4950 5150 50  0001 C CNN
+	1    4950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6135BC63
+P 2400 3400
+F 0 "#PWR?" H 2400 3250 50  0001 C CNN
+F 1 "+3.3V" H 2250 3400 50  0000 C CNN
+F 2 "" H 2400 3400 50  0001 C CNN
+F 3 "" H 2400 3400 50  0001 C CNN
+	1    2400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 6135D44B
+P 2500 3250
+F 0 "#PWR?" H 2500 3100 50  0001 C CNN
+F 1 "+BATT" H 2650 3250 50  0000 C CNN
+F 2 "" H 2500 3250 50  0001 C CNN
+F 3 "" H 2500 3250 50  0001 C CNN
+	1    2500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6135DF52
+P 4750 4650
+F 0 "#PWR?" H 4750 4400 50  0001 C CNN
+F 1 "GND" V 4755 4522 50  0000 R CNN
+F 2 "" H 4750 4650 50  0001 C CNN
+F 3 "" H 4750 4650 50  0001 C CNN
+	1    4750 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6135E108
+P 4750 5450
+F 0 "#PWR?" H 4750 5200 50  0001 C CNN
+F 1 "GND" V 4755 5322 50  0000 R CNN
+F 2 "" H 4750 5450 50  0001 C CNN
+F 3 "" H 4750 5450 50  0001 C CNN
+	1    4750 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6135E5C7
+P 4750 5150
+F 0 "#PWR?" H 4750 5000 50  0001 C CNN
+F 1 "+3.3V" V 4750 5400 50  0000 C CNN
+F 2 "" H 4750 5150 50  0001 C CNN
+F 3 "" H 4750 5150 50  0001 C CNN
+	1    4750 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6135F604
+P 4750 4350
+F 0 "#PWR?" H 4750 4200 50  0001 C CNN
+F 1 "+3.3V" V 4750 4600 50  0000 C CNN
+F 2 "" H 4750 4350 50  0001 C CNN
+F 3 "" H 4750 4350 50  0001 C CNN
+	1    4750 4350
+	0    -1   -1   0   
+$EndComp
+Text HLabel 4750 4450 0    50   Output ~ 0
+Left_Encoder_A
+Text HLabel 4750 4550 0    50   Output ~ 0
+Left_Encoder_B
+Text HLabel 4750 5250 0    50   Output ~ 0
+Right_Encoder_A
+Text HLabel 4750 5350 0    50   Output ~ 0
+Right_Encoder_B
+$Comp
+L power:GND #PWR?
+U 1 1 61367EC5
+P 2400 4450
+F 0 "#PWR?" H 2400 4200 50  0001 C CNN
+F 1 "GND" H 2405 4277 50  0000 C CNN
+F 2 "" H 2400 4450 50  0001 C CNN
+F 3 "" H 2400 4450 50  0001 C CNN
+	1    2400 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4450 2500 4450
+Connection ~ 2400 4450
+Wire Wire Line
+	2000 4300 2000 4450
+Wire Wire Line
+	2000 4450 2400 4450
+$Comp
+L Device:C C?
+U 1 1 61368A7C
+P 1100 4300
+F 0 "C?" H 1150 4400 50  0000 L CNN
+F 1 "22u" H 1150 4200 50  0000 L CNN
+F 2 "" H 1138 4150 50  0001 C CNN
+F 3 "~" H 1100 4300 50  0001 C CNN
+	1    1100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61369106
+P 800 4300
+F 0 "C?" H 850 4400 50  0000 L CNN
+F 1 "0.1u" H 850 4200 50  0000 L CNN
+F 2 "" H 838 4150 50  0001 C CNN
+F 3 "~" H 800 4300 50  0001 C CNN
+	1    800  4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3250 2500 3650
+Wire Wire Line
+	2400 3400 2400 3650
+Text HLabel 2000 3800 0    50   Input ~ 0
+Left_Motor_OUT_A
+Text HLabel 2000 3900 0    50   Input ~ 0
+Left_Motor_OUT_B
+Text HLabel 2000 4050 0    50   Input ~ 0
+Right_Motor_OUT_A
+Text HLabel 2000 4150 0    50   Input ~ 0
+Right_Motor_OUT_B
+$Comp
+L power:GND #PWR?
+U 1 1 613823C3
+P 800 4450
+F 0 "#PWR?" H 800 4200 50  0001 C CNN
+F 1 "GND" H 805 4277 50  0000 C CNN
+F 2 "" H 800 4450 50  0001 C CNN
+F 3 "" H 800 4450 50  0001 C CNN
+	1    800  4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 4450 800  4450
+Connection ~ 800  4450
+Wire Wire Line
+	800  4150 1100 4150
+$Comp
+L power:+BATT #PWR?
+U 1 1 61383160
+P 800 4150
+F 0 "#PWR?" H 800 4000 50  0001 C CNN
+F 1 "+BATT" H 815 4323 50  0000 C CNN
+F 2 "" H 800 4150 50  0001 C CNN
+F 3 "" H 800 4150 50  0001 C CNN
+	1    800  4150
+	1    0    0    -1  
+$EndComp
+Connection ~ 800  4150
+Wire Wire Line
+	2900 3850 4750 3850
+Wire Wire Line
+	4750 3850 4750 4150
+Wire Wire Line
+	2900 3950 4600 3950
+Wire Wire Line
+	4600 3950 4600 4250
+Wire Wire Line
+	4600 4250 4750 4250
+Wire Wire Line
+	2900 4100 4100 4100
+Wire Wire Line
+	4100 4100 4100 4950
+Wire Wire Line
+	4100 4950 4750 4950
+Wire Wire Line
+	4750 5050 4000 5050
+Wire Wire Line
+	4000 5050 4000 4200
+Wire Wire Line
+	4000 4200 2900 4200
+$EndSCHEMATC

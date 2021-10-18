@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name PUI_Audio)(type KiCad)(uri ${KIPRJMOD}/lib/PUI_Audio)(options "")(descr ""))
+  (lib (name Zero_Module)(type KiCad)(uri ${KIPRJMOD}/lib/Zero_Module/Zero_Module.pretty)(options "")(descr ""))
+)

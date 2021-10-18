@@ -19,7 +19,7 @@ U 1 1 61651D0A
 P 4450 2000
 F 0 "J9" H 4500 2817 50  0000 C CNN
 F 1 "CN1_Left" H 4500 2726 50  0000 C CNN
-F 2 "" H 4450 2000 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x13_Pitch2.54mm" H 4450 2000 50  0001 C CNN
 F 3 "~" H 4450 2000 50  0001 C CNN
 	1    4450 2000
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 61652D70
 P 1700 1950
 F 0 "J8" H 1750 2767 50  0000 C CNN
 F 1 "CN2_Right" H 1750 2676 50  0000 C CNN
-F 2 "" H 1700 1950 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x13_Pitch2.54mm" H 1700 1950 50  0001 C CNN
 F 3 "~" H 1700 1950 50  0001 C CNN
 	1    1700 1950
 	1    0    0    -1  
@@ -165,7 +165,9 @@ IR_Sensor_OUT2
 Text Notes 1500 3700 0    100  ~ 20
 TIM2 EncoderL\nTIM4 Motor\nTIM8 EncoderR\nTIM9(TIM5) IR\nTIM12 BUZZER
 NoConn ~ 4750 1900
-NoConn ~ 4750 2100
-NoConn ~ 4250 2100
 NoConn ~ 4250 1900
+Text HLabel 4250 2100 0    50   Input ~ 0
+Button1
+Text HLabel 4750 2100 2    50   Input ~ 0
+Button2
 $EndSCHEMATC

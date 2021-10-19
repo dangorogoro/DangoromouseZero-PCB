@@ -1,4 +1,4 @@
-891586872729767
+894856194134767
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -42490,12 +42490,26 @@ SolderWirePad_single_SMD_5x10mm
 0
 0
 Zero_Module
+DRV8835Board
+
+
+0
+12
+12
+Zero_Module
+L3GD20HBoard
+
+
+0
+8
+8
+Zero_Module
 STM32F405Board
 Through hole straight pin header, 2x23, 2.54mm pitch, double rows
 Through hole pin header THT 2x23 2.54mm double row
 0
-46
-46
+52
+52
 minelib
 4mmx4mmInductor
 Neosid, Power Inductor, SM-PIC0602H, Festinduktivitaet, SMD,

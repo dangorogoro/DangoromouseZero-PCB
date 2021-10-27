@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/dango/kicad/project/ZeroPCB/pcb/ZeroPCB.sch)
-    (date "2021年10月19日 22時06分33秒")
+    (date "2021年10月21日 22時59分08秒")
     (tool "Eeschema 5.1.10")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

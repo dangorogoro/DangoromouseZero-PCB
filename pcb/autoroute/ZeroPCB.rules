@@ -1,0 +1,102 @@
+
+(rules PCB ZeroPCB
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 4746)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.2)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.8)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-Power" "Via[0-1]_800:400_um" Power
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    Power "Via[0-1]_800:400_um-Power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(C2-Pad1)" /IRSensor/1.65V "Net-(C4-Pad2)" "Net-(C4-Pad1)" "/IRSensor/IR_Sensor_IN1" "Net-(C6-Pad1)" "Net-(C6-Pad2)" "/IRSensor/IR_Sensor_IN2"
+    "Net-(C10-Pad2)" "Net-(C8-Pad2)" "Net-(C11-Pad2)" "Net-(C9-Pad2)" "/IRSensor/IR_Sensor_IN3" "/IRSensor/IR_Sensor_IN4" "Net-(D1-Pad2)" "Net-(D2-Pad1)"
+    "Net-(D3-Pad1)" "Net-(D4-Pad1)" "Net-(D5-Pad1)" "Net-(D10-Pad2)" "Net-(D11-Pad2)" "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(D14-Pad2)"
+    "Net-(D15-Pad2)" "Net-(D16-Pad2)" "Net-(D17-Pad2)" "Net-(J1-Pad1)" "Net-(J1-Pad2)" "/MicroController/Left_EncoderA" "/MicroController/Left_EncoderB" "/MicroController/Right_EncoderB"
+    "/MicroController/Right_EncoderA" "/GyroSensor/IMU_MISO" "/GyroSensor/IMU_MOSI" "/GyroSensor/IMU_CLK" "/GyroSensor/IMU_CS" "/IRSensor/IR_Sensor_OUT1" "/IRSensor/IR_Sensor_OUT2" /Communication/SWDIO
+    /Communication/SWCLK "/MicroController/Left_Motor_OUT1" "/MicroController/Left_Motor_OUT2" /Debug/Buzzer /Communication/NRST "/MicroController/Right_Motor_OUT2" "/MicroController/Right_Motor_OUT1" /Debug/LED6
+    /Debug/LED5 /Debug/LED4 /Debug/LED3 /Debug/LED2 /Debug/LED1 /Debug/Button2 /Debug/Button1 "/Communication/UART_RX"
+    "/Communication/UART_TX" "/MicroController/BAT_REF" "Net-(L1-Pad1)" "Net-(LS1-Pad2)" "Net-(Q1-Pad1)" "Net-(Q2-Pad2)" "Net-(Q2-Pad1)" "Net-(Q3-Pad1)"
+    "Net-(Q3-Pad2)" "Net-(Q4-Pad3)" "Net-(R8-Pad2)" "Net-(R10-Pad2)" "Net-(R12-Pad2)" "Net-(R13-Pad2)" "Net-(J4-Pad1)" "Net-(J4-Pad2)"
+    "Net-(J5-Pad2)" "Net-(J5-Pad1)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    GND +3.3VA +BATT +3V3
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 400.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

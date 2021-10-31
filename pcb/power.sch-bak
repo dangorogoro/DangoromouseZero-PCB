@@ -53,7 +53,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 3400 3250 3400
 Wire Wire Line
-	3250 3400 3250 2900
+	3250 3400 3250 3150
 Connection ~ 3250 2900
 Wire Wire Line
 	3350 2900 4000 2900
@@ -69,7 +69,7 @@ F 3 "~" H 4000 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4100 2900 4100 3400
+	4100 2900 4100 3150
 $Comp
 L power:GND #PWR0101
 U 1 1 612C9058
@@ -264,20 +264,6 @@ F 3 "" H 2900 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x03_Female J3
-U 1 1 612F3236
-P 2150 4600
-F 0 "J3" H 2042 4275 50  0000 C CNN
-F 1 "VX07803-500" H 2042 4366 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2150 4600 50  0001 C CNN
-F 3 "~" H 2150 4600 50  0001 C CNN
-	1    2150 4600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2300 4500 2350 4500
-Connection ~ 2350 4500
-$Comp
 L power:GND #PWR02
 U 1 1 612F945A
 P 2900 4600
@@ -303,8 +289,6 @@ F 3 "" H 2900 4700 50  0001 C CNN
 	1    2900 4700
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2350 4500 2900 4500
 $Comp
 L power:+3.3V #PWR04
 U 1 1 613037C6
@@ -545,6 +529,184 @@ F 1 "20k" V 4850 2950 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4780 3000 50  0001 C CNN
 F 3 "~" H 4850 3000 50  0001 C CNN
 	1    4850 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 4500 2900 4500
+$Comp
+L Connector:Conn_01x03_Female J3
+U 1 1 612F3236
+P 2150 4600
+F 0 "J3" H 2042 4275 50  0000 C CNN
+F 1 "VX07803-500" H 2042 4366 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2150 4600 50  0001 C CNN
+F 3 "~" H 2150 4600 50  0001 C CNN
+	1    2150 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J12
+U 1 1 617B1D84
+P 3800 3350
+F 0 "J12" V 3646 3398 50  0000 L CNN
+F 1 "GND_PIN" V 3850 3200 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 3800 3350 50  0001 C CNN
+F 3 "~" H 3800 3350 50  0001 C CNN
+	1    3800 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J9
+U 1 1 617B6283
+P 3450 3350
+F 0 "J9" V 3296 3398 50  0000 L CNN
+F 1 "BATT_PIN" V 3500 3200 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 3450 3350 50  0001 C CNN
+F 3 "~" H 3450 3350 50  0001 C CNN
+	1    3450 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3450 3150 3250 3150
+Connection ~ 3250 3150
+Wire Wire Line
+	3250 3150 3250 2900
+Wire Wire Line
+	3800 3150 4100 3150
+Connection ~ 4100 3150
+Wire Wire Line
+	4100 3150 4100 3400
+$Comp
+L power:+BATT #PWR058
+U 1 1 617ECFA7
+P 700 4800
+F 0 "#PWR058" H 700 4650 50  0001 C CNN
+F 1 "+BATT" H 715 4973 50  0000 C CNN
+F 2 "" H 700 4800 50  0001 C CNN
+F 3 "" H 700 4800 50  0001 C CNN
+	1    700  4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 617EDD48
+P 700 4950
+F 0 "C14" H 815 4996 50  0000 L CNN
+F 1 "0.1u" H 815 4905 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 738 4800 50  0001 C CNN
+F 3 "~" H 700 4950 50  0001 C CNN
+	1    700  4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 617FDA33
+P 1100 4950
+F 0 "C16" H 1215 4996 50  0000 L CNN
+F 1 "10u" H 1215 4905 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1138 4800 50  0001 C CNN
+F 3 "~" H 1100 4950 50  0001 C CNN
+	1    1100 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR059
+U 1 1 617FEB26
+P 700 5100
+F 0 "#PWR059" H 700 4850 50  0001 C CNN
+F 1 "GND" H 705 4927 50  0000 C CNN
+F 2 "" H 700 5100 50  0001 C CNN
+F 3 "" H 700 5100 50  0001 C CNN
+	1    700  5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  5100 1100 5100
+Connection ~ 700  5100
+Wire Wire Line
+	1100 4800 700  4800
+Connection ~ 700  4800
+$Comp
+L Device:C C15
+U 1 1 6180B6C5
+P 700 5850
+F 0 "C15" H 815 5896 50  0000 L CNN
+F 1 "0.1u" H 815 5805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 738 5700 50  0001 C CNN
+F 3 "~" H 700 5850 50  0001 C CNN
+	1    700  5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 6180B6CB
+P 1100 5850
+F 0 "C17" H 1215 5896 50  0000 L CNN
+F 1 "10u" H 1215 5805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1138 5700 50  0001 C CNN
+F 3 "~" H 1100 5850 50  0001 C CNN
+	1    1100 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR061
+U 1 1 6180B6D1
+P 700 6000
+F 0 "#PWR061" H 700 5750 50  0001 C CNN
+F 1 "GND" H 705 5827 50  0000 C CNN
+F 2 "" H 700 6000 50  0001 C CNN
+F 3 "" H 700 6000 50  0001 C CNN
+	1    700  6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  6000 1100 6000
+Connection ~ 700  6000
+Wire Wire Line
+	1100 5700 700  5700
+$Comp
+L power:+3.3V #PWR060
+U 1 1 6180C504
+P 700 5700
+F 0 "#PWR060" H 700 5550 50  0001 C CNN
+F 1 "+3.3V" H 715 5873 50  0000 C CNN
+F 2 "" H 700 5700 50  0001 C CNN
+F 3 "" H 700 5700 50  0001 C CNN
+	1    700  5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 700  5700
+$Comp
+L power:+3.3VA #PWR0110
+U 1 1 6181FBB8
+P 700 6450
+F 0 "#PWR0110" H 700 6300 50  0001 C CNN
+F 1 "+3.3VA" H 715 6623 50  0000 C CNN
+F 2 "" H 700 6450 50  0001 C CNN
+F 3 "" H 700 6450 50  0001 C CNN
+	1    700  6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 61820592
+P 700 6600
+F 0 "C18" H 815 6646 50  0000 L CNN
+F 1 "2.2u" H 815 6555 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 738 6450 50  0001 C CNN
+F 3 "~" H 700 6600 50  0001 C CNN
+	1    700  6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 61821777
+P 700 6750
+F 0 "#PWR0123" H 700 6500 50  0001 C CNN
+F 1 "GND" H 705 6577 50  0000 C CNN
+F 2 "" H 700 6750 50  0001 C CNN
+F 3 "" H 700 6750 50  0001 C CNN
+	1    700  6750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -43,14 +43,8 @@ Text HLabel 4250 2200 0    50   Output ~ 0
 LED1
 Text HLabel 4750 2200 2    50   Output ~ 0
 LED2
-Text HLabel 4750 2300 2    50   Output ~ 0
-LED4
 Text HLabel 4250 2300 0    50   Output ~ 0
 LED3
-Text HLabel 4250 2400 0    50   Output ~ 0
-LED5
-Text HLabel 4750 2400 2    50   Output ~ 0
-LED6
 Text HLabel 4250 2000 0    50   Output ~ 0
 UART_TX
 Text HLabel 4750 2000 2    50   Input ~ 0
@@ -71,7 +65,6 @@ Text HLabel 4250 1800 0    50   Input ~ 0
 Right_EncoderA
 Text HLabel 4750 1800 2    50   Input ~ 0
 Right_EncoderB
-NoConn ~ 4250 2600
 Text HLabel 4250 2500 0    50   Input ~ 0
 Right_Motor_OUT1
 Text HLabel 4750 2500 2    50   Input ~ 0
@@ -115,14 +108,10 @@ Text HLabel 4250 3100 0    50   Input ~ 0
 IMU_MISO
 Text HLabel 4750 3100 2    50   Output ~ 0
 IMU_MOSI
-Text HLabel 4750 3000 2    50   Output ~ 0
-IMU_CLK
 Text HLabel 4750 3400 2    50   BiDi ~ 0
 SWDIO
 Text HLabel 4250 3500 0    50   Input ~ 0
 SWCLK
-Text HLabel 4250 2800 0    50   Input ~ 0
-Left_EncoderA
 Text HLabel 4750 2800 2    50   Input ~ 0
 Left_EncoderB
 NoConn ~ 4250 3700
@@ -139,8 +128,6 @@ Text HLabel 4750 3600 2    50   Input ~ 0
 Left_Motor_OUT2
 Text HLabel 4750 3900 2    50   Output ~ 0
 Buzzer
-NoConn ~ 4750 3800
-NoConn ~ 4250 3800
 NoConn ~ 4250 3900
 Text HLabel 4250 2900 0    50   Output ~ 0
 IR_Sensor_OUT1
@@ -159,6 +146,29 @@ F 3 "~" H 4450 2600 50  0001 C CNN
 	1    4450 2600
 	1    0    0    -1  
 $EndComp
-Text Notes 2150 2700 0    39   ~ 0
+$Comp
+L power:+3.3V #PWR054
+U 1 1 617FE91D
+P 4250 2600
+F 0 "#PWR054" H 4250 2450 50  0001 C CNN
+F 1 "+3.3V" V 4265 2728 50  0000 L CNN
+F 2 "" H 4250 2600 50  0001 C CNN
+F 3 "" H 4250 2600 50  0001 C CNN
+	1    4250 2600
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 4750 3800
+NoConn ~ 4250 3800
+Text HLabel 4250 2400 0    50   Output ~ 0
+LED5
+Text HLabel 4750 2400 2    50   Output ~ 0
+LED6
+Text HLabel 4750 2300 2    50   Output ~ 0
+LED4
+Text HLabel 4750 3000 2    50   Output ~ 0
+IMU_CLK
+Text HLabel 4250 2800 0    50   Input ~ 0
+Left_EncoderA
+Text Notes 2050 2700 0    39   ~ 0
 CN1(Left)\n--------------------------------------------\nCN2(Right)
 $EndSCHEMATC

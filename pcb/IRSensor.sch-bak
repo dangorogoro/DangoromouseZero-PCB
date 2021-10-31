@@ -340,7 +340,7 @@ F 1 "SFH213FA" V 5505 1520 50  0000 R CNN
 F 2 "LEDs:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 5550 1600 50  0001 C CNN
 F 3 "~" H 5550 1600 50  0001 C CNN
 	1    5550 1600
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR025
@@ -500,7 +500,7 @@ F 1 "SFH213FA" V 5505 3420 50  0000 R CNN
 F 2 "LEDs:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 5550 3500 50  0001 C CNN
 F 3 "~" H 5550 3500 50  0001 C CNN
 	1    5550 3500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR030
@@ -660,7 +660,7 @@ F 1 "SFH213FA" V 8155 1520 50  0000 R CNN
 F 2 "LEDs:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 8200 1600 50  0001 C CNN
 F 3 "~" H 8200 1600 50  0001 C CNN
 	1    8200 1600
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR035
@@ -820,7 +820,7 @@ F 1 "SFH213FA" V 8155 3420 50  0000 R CNN
 F 2 "LEDs:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 8200 3500 50  0001 C CNN
 F 3 "~" H 8200 3500 50  0001 C CNN
 	1    8200 3500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR037

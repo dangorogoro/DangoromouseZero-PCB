@@ -1,0 +1,309 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Battery_Management:MCP73831-2-OT U1
+U 1 1 617BDE39
+P 4050 3750
+F 0 "U1" H 4050 4231 50  0000 C CNN
+F 1 "MCP73831-2-OT" H 4050 4140 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 4100 3500 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 3900 3700 50  0001 C CNN
+	1    4050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_A J1
+U 1 1 617BEBB5
+P 2300 3250
+F 0 "J1" H 2357 3717 50  0000 C CNN
+F 1 "USB_A" H 2357 3626 50  0000 C CNN
+F 2 "Connect:USB_A" H 2450 3200 50  0001 C CNN
+F 3 " ~" H 2450 3200 50  0001 C CNN
+	1    2300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 617C27E3
+P 3000 3900
+F 0 "C1" H 3115 3946 50  0000 L CNN
+F 1 "4.7u" H 3115 3855 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3038 3750 50  0001 C CNN
+F 3 "~" H 3000 3900 50  0001 C CNN
+	1    3000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 617C99EA
+P 3650 4200
+F 0 "R1" H 3720 4246 50  0000 L CNN
+F 1 "4.7k" H 3720 4155 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3580 4200 50  0001 C CNN
+F 3 "~" H 3650 4200 50  0001 C CNN
+	1    3650 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4050 4050 4600
+Wire Wire Line
+	2200 3650 2300 3650
+Wire Wire Line
+	2300 3650 2300 4600
+Wire Wire Line
+	2300 4600 2500 4600
+Connection ~ 2300 3650
+Connection ~ 4050 4600
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 617CB82D
+P 2500 4600
+F 0 "#FLG01" H 2500 4675 50  0001 C CNN
+F 1 "PWR_FLAG" H 2500 4773 50  0000 C CNN
+F 2 "" H 2500 4600 50  0001 C CNN
+F 3 "~" H 2500 4600 50  0001 C CNN
+	1    2500 4600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2500 4600
+Wire Wire Line
+	2500 4600 3000 4600
+NoConn ~ 2600 3250
+NoConn ~ 2600 3350
+Wire Wire Line
+	2600 3050 3000 3050
+$Comp
+L Device:LED D1
+U 1 1 617CC7B7
+P 4800 3350
+F 0 "D1" V 4839 3232 50  0000 R CNN
+F 1 "LED" V 4748 3232 50  0000 R CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 4800 3350 50  0001 C CNN
+F 3 "~" H 4800 3350 50  0001 C CNN
+	1    4800 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 3450 4050 3050
+Connection ~ 4050 3050
+Wire Wire Line
+	3650 4050 3650 3850
+Wire Wire Line
+	3650 4350 3650 4600
+Connection ~ 3650 4600
+Wire Wire Line
+	3650 4600 4050 4600
+Wire Wire Line
+	3000 4050 3000 4600
+Connection ~ 3000 4600
+Wire Wire Line
+	3000 4600 3650 4600
+Wire Wire Line
+	3000 3050 3000 3750
+Connection ~ 3000 3050
+Wire Wire Line
+	3000 3050 4050 3050
+Wire Wire Line
+	4050 3050 4800 3050
+Wire Wire Line
+	4800 3200 4800 3050
+Connection ~ 4800 3050
+Wire Wire Line
+	4800 3500 4800 3850
+$Comp
+L Device:R R2
+U 1 1 617D8E49
+P 4650 3850
+F 0 "R2" V 4750 3850 50  0000 C CNN
+F 1 "1k" V 4650 3850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4580 3850 50  0001 C CNN
+F 3 "~" H 4650 3850 50  0001 C CNN
+	1    4650 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 3850 4500 3850
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 617DA6AC
+P 5400 3650
+F 0 "J2" H 5428 3626 50  0000 L CNN
+F 1 "BATT1" H 5300 3750 50  0000 L CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53047-0210_02x1.25mm_Straight" H 5400 3650 50  0001 C CNN
+F 3 "~" H 5400 3650 50  0001 C CNN
+	1    5400 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3750 5200 4600
+Wire Wire Line
+	4050 4600 4900 4600
+Wire Wire Line
+	4450 3650 4900 3650
+$Comp
+L Device:C C2
+U 1 1 617E2647
+P 4900 4250
+F 0 "C2" H 5015 4296 50  0000 L CNN
+F 1 "4.7u" H 5015 4205 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4938 4100 50  0001 C CNN
+F 3 "~" H 4900 4250 50  0001 C CNN
+	1    4900 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4100 4900 3650
+Connection ~ 4900 3650
+Wire Wire Line
+	4900 3650 5200 3650
+Wire Wire Line
+	4900 4400 4900 4600
+Connection ~ 4900 4600
+Wire Wire Line
+	4900 4600 5200 4600
+$Comp
+L Battery_Management:MCP73831-2-OT U2
+U 1 1 617ECC64
+P 5950 3750
+F 0 "U2" H 5950 4231 50  0000 C CNN
+F 1 "MCP73831-2-OT" H 5950 4140 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 6000 3500 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 5800 3700 50  0001 C CNN
+	1    5950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 617ECC6A
+P 5550 4200
+F 0 "R3" H 5620 4246 50  0000 L CNN
+F 1 "4.7k" H 5620 4155 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5480 4200 50  0001 C CNN
+F 3 "~" H 5550 4200 50  0001 C CNN
+	1    5550 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 4050 5950 4600
+$Comp
+L Device:LED D2
+U 1 1 617ECC71
+P 6700 3350
+F 0 "D2" V 6739 3232 50  0000 R CNN
+F 1 "LED" V 6648 3232 50  0000 R CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 6700 3350 50  0001 C CNN
+F 3 "~" H 6700 3350 50  0001 C CNN
+	1    6700 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 4050 5550 3850
+Wire Wire Line
+	5550 4350 5550 4600
+Wire Wire Line
+	6700 3500 6700 3850
+$Comp
+L Device:R R4
+U 1 1 617ECC7B
+P 6550 3850
+F 0 "R4" V 6650 3850 50  0000 C CNN
+F 1 "1k" V 6550 3850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6480 3850 50  0001 C CNN
+F 3 "~" H 6550 3850 50  0001 C CNN
+	1    6550 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 3850 6400 3850
+$Comp
+L Connector:Conn_01x02_Female J3
+U 1 1 617ECC82
+P 7300 3650
+F 0 "J3" H 7328 3626 50  0000 L CNN
+F 1 "BATT2" H 7200 3750 50  0000 L CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53047-0210_02x1.25mm_Straight" H 7300 3650 50  0001 C CNN
+F 3 "~" H 7300 3650 50  0001 C CNN
+	1    7300 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3750 7100 4600
+Wire Wire Line
+	6350 3650 6800 3650
+$Comp
+L Device:C C3
+U 1 1 617ECC8A
+P 6800 4250
+F 0 "C3" H 6915 4296 50  0000 L CNN
+F 1 "4.7u" H 6915 4205 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6838 4100 50  0001 C CNN
+F 3 "~" H 6800 4250 50  0001 C CNN
+	1    6800 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 4100 6800 3650
+Connection ~ 6800 3650
+Wire Wire Line
+	6800 3650 7100 3650
+Wire Wire Line
+	6800 4400 6800 4600
+Wire Wire Line
+	4800 3050 5950 3050
+Wire Wire Line
+	6700 3050 6700 3200
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 617F2DA3
+P 6700 3050
+F 0 "#FLG02" H 6700 3125 50  0001 C CNN
+F 1 "PWR_FLAG" H 6700 3223 50  0000 C CNN
+F 2 "" H 6700 3050 50  0001 C CNN
+F 3 "~" H 6700 3050 50  0001 C CNN
+	1    6700 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 6700 3050
+Wire Wire Line
+	7100 4600 6800 4600
+Connection ~ 5200 4600
+Connection ~ 5550 4600
+Wire Wire Line
+	5550 4600 5200 4600
+Connection ~ 5950 4600
+Wire Wire Line
+	5950 4600 5550 4600
+Connection ~ 6800 4600
+Wire Wire Line
+	6800 4600 5950 4600
+Wire Wire Line
+	5950 3450 5950 3050
+Connection ~ 5950 3050
+Wire Wire Line
+	5950 3050 6700 3050
+$Comp
+L power:GND #PWR?
+U 1 1 6181EE0A
+P 2300 4600
+F 0 "#PWR?" H 2300 4350 50  0001 C CNN
+F 1 "GND" H 2305 4427 50  0000 C CNN
+F 2 "" H 2300 4600 50  0001 C CNN
+F 3 "" H 2300 4600 50  0001 C CNN
+	1    2300 4600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 4600
+$EndSCHEMATC

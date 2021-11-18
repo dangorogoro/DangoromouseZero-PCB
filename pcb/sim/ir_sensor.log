@@ -1,27 +1,25 @@
 Circuit: * Z:\home\dango\kicad\project\ZeroPCB\pcb\sim\ir_sensor.asc
 
-Model "u1:pmos2": Oxide thickness thinner than recommended for a level 1 MOSFET.
-Instance "m:u1:2": Length shorter than recommended for a level 1 MOSFET.
-Model "u1:pmos1": Oxide thickness thinner than recommended for a level 1 MOSFET.
-Instance "m:u1:1": Length shorter than recommended for a level 1 MOSFET.
+Model "u2:pmos2": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Instance "m:u2:2": Length shorter than recommended for a level 1 MOSFET.
+Model "u2:pmos1": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Instance "m:u2:1": Length shorter than recommended for a level 1 MOSFET.
 Direct Newton iteration for .op point succeeded.
-Ignoring empty pin current: Ix(u1:5)
-Ignoring empty pin current: Ix(u1:5)
 
-Date: Sat Oct 30 23:09:31 2021
-Total elapsed time: 0.051 seconds.
+Date: Mon Nov 15 21:51:29 2021
+Total elapsed time: 0.052 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2205
-traniter = 2162
-tranpoints = 1082
+totiter = 2176
+traniter = 2167
+tranpoints = 1084
 accept = 1054
-rejected = 28
-matrix size = 21
-fillins = 13
+rejected = 30
+matrix size = 27
+fillins = 10
 solver = Normal
-Matrix Compiler1: 1.47 KB object code size  0.4/0.3/[0.2]
-Matrix Compiler2: off  [0.3]/0.4/0.4
+Matrix Compiler1: 1.57 KB object code size  0.5/0.3/[0.2]
+Matrix Compiler2: 2.13 KB object code size  0.3/0.4/[0.3]
 

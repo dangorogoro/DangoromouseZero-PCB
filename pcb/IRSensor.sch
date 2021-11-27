@@ -20,7 +20,9 @@ P 2200 2000
 F 0 "U2" H 2200 2367 50  0000 C CNN
 F 1 "NJM2746" H 2200 2276 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2200 2000 50  0001 C CNN
-F 3 "~" H 2200 2000 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-09495/" H 2200 2000 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-09495/" H 2200 2000 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gI-09495/" H 2200 2000 50  0001 C CNN "Vendor"
 	1    2200 2000
 	1    0    0    -1  
 $EndComp
@@ -31,7 +33,9 @@ P 2200 3800
 F 0 "U2" H 2200 4167 50  0000 C CNN
 F 1 "NJM2746" H 2200 4076 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2200 3800 50  0001 C CNN
-F 3 "~" H 2200 3800 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-09495/" H 2200 3800 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-09495/" H 2200 3800 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gI-09495/" H 2200 3800 50  0001 C CNN "Vendor"
 	2    2200 3800
 	1    0    0    -1  
 $EndComp
@@ -42,7 +46,9 @@ P 1800 2800
 F 0 "U2" H 1758 2846 50  0000 L CNN
 F 1 "NJM2746" H 1758 2755 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 1800 2800 50  0001 C CNN
-F 3 "~" H 1800 2800 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-09495/" H 1800 2800 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-09495/" H 1800 2800 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gI-09495/" H 1800 2800 50  0001 C CNN "Vendor"
 	3    1800 2800
 	1    0    0    -1  
 $EndComp
@@ -56,6 +62,8 @@ F 0 "R8" H 1320 1796 50  0000 L CNN
 F 1 "10k" V 1250 1700 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1180 1750 50  0001 C CNN
 F 3 "~" H 1250 1750 50  0001 C CNN
+F 4 "~" H 1250 1750 50  0001 C CNN "Buy"
+F 5 "~" H 1250 1750 50  0001 C CNN "Vendor"
 	1    1250 1750
 	1    0    0    -1  
 $EndComp
@@ -67,6 +75,8 @@ F 0 "R9" H 1320 2096 50  0000 L CNN
 F 1 "10k" V 1250 2000 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1180 2050 50  0001 C CNN
 F 3 "~" H 1250 2050 50  0001 C CNN
+F 4 "~" H 1250 2050 50  0001 C CNN "Buy"
+F 5 "~" H 1250 2050 50  0001 C CNN "Vendor"
 	1    1250 2050
 	1    0    0    -1  
 $EndComp
@@ -78,6 +88,8 @@ F 0 "R10" H 1320 3596 50  0000 L CNN
 F 1 "10k" V 1250 3500 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1180 3550 50  0001 C CNN
 F 3 "~" H 1250 3550 50  0001 C CNN
+F 4 "~" H 1250 3550 50  0001 C CNN "Buy"
+F 5 "~" H 1250 3550 50  0001 C CNN "Vendor"
 	1    1250 3550
 	1    0    0    -1  
 $EndComp
@@ -89,6 +101,8 @@ F 0 "R11" H 1320 3896 50  0000 L CNN
 F 1 "10k" V 1250 3800 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1180 3850 50  0001 C CNN
 F 3 "~" H 1250 3850 50  0001 C CNN
+F 4 "~" H 1250 3850 50  0001 C CNN "Buy"
+F 5 "~" H 1250 3850 50  0001 C CNN "Vendor"
 	1    1250 3850
 	1    0    0    -1  
 $EndComp
@@ -152,6 +166,8 @@ F 0 "R12" V 2550 1950 50  0000 L CNN
 F 1 "10" V 2650 1950 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2580 2000 50  0001 C CNN
 F 3 "~" H 2650 2000 50  0001 C CNN
+F 4 "~" H 2650 2000 50  0001 C CNN "Buy"
+F 5 "~" H 2650 2000 50  0001 C CNN "Vendor"
 	1    2650 2000
 	0    1    1    0   
 $EndComp
@@ -163,6 +179,8 @@ F 0 "R13" V 2550 3750 50  0000 L CNN
 F 1 "10" V 2650 3750 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2580 3800 50  0001 C CNN
 F 3 "~" H 2650 3800 50  0001 C CNN
+F 4 "~" H 2650 3800 50  0001 C CNN "Buy"
+F 5 "~" H 2650 3800 50  0001 C CNN "Vendor"
 	1    2650 3800
 	0    1    1    0   
 $EndComp
@@ -173,7 +191,9 @@ P 3100 1350
 F 0 "D2" V 3139 1232 50  0000 R CNN
 F 1 "VSLY5850" V 3048 1232 50  0000 R CNN
 F 2 "LEDs:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 3100 1350 50  0001 C CNN
-F 3 "~" H 3100 1350 50  0001 C CNN
+F 3 "https://www.digikey.jp/ja/products/detail/vishay-semiconductor-opto-division/VSLY5850/2615286" H 3100 1350 50  0001 C CNN
+F 4 "https://www.digikey.jp/ja/products/detail/vishay-semiconductor-opto-division/VSLY5850/2615286" H 3100 1350 50  0001 C CNN "Buy"
+F 5 "https://www.digikey.jp/ja/products/detail/vishay-semiconductor-opto-division/VSLY5850/2615286" H 3100 1350 50  0001 C CNN "Vendor"
 	1    3100 1350
 	0    -1   -1   0   
 $EndComp
@@ -184,7 +204,9 @@ P 3100 1650
 F 0 "D3" V 3139 1532 50  0000 R CNN
 F 1 "VSLY5850" V 3048 1532 50  0000 R CNN
 F 2 "LEDs:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 3100 1650 50  0001 C CNN
-F 3 "~" H 3100 1650 50  0001 C CNN
+F 3 "https://www.digikey.jp/ja/products/detail/vishay-semiconductor-opto-division/VSLY5850/2615286" H 3100 1650 50  0001 C CNN
+F 4 "https://www.digikey.jp/ja/products/detail/vishay-semiconductor-opto-division/VSLY5850/2615286" H 3100 1650 50  0001 C CNN "Buy"
+F 5 "https://www.digikey.jp/ja/products/detail/vishay-semiconductor-opto-division/VSLY5850/2615286" H 3100 1650 50  0001 C CNN "Vendor"
 	1    3100 1650
 	0    -1   -1   0   
 $EndComp
@@ -195,7 +217,9 @@ P 3100 3150
 F 0 "D4" V 3139 3032 50  0000 R CNN
 F 1 "VSLY5850" V 3048 3032 50  0000 R CNN
 F 2 "LEDs:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 3100 3150 50  0001 C CNN
-F 3 "~" H 3100 3150 50  0001 C CNN
+F 3 "https://www.digikey.jp/ja/products/detail/vishay-semiconductor-opto-division/VSLY5850/2615286" H 3100 3150 50  0001 C CNN
+F 4 "https://www.digikey.jp/ja/products/detail/vishay-semiconductor-opto-division/VSLY5850/2615286" H 3100 3150 50  0001 C CNN "Buy"
+F 5 "https://www.digikey.jp/ja/products/detail/vishay-semiconductor-opto-division/VSLY5850/2615286" H 3100 3150 50  0001 C CNN "Vendor"
 	1    3100 3150
 	0    -1   -1   0   
 $EndComp
@@ -206,7 +230,9 @@ P 3100 3450
 F 0 "D5" V 3139 3332 50  0000 R CNN
 F 1 "VSLY5850" V 3048 3332 50  0000 R CNN
 F 2 "LEDs:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 3100 3450 50  0001 C CNN
-F 3 "~" H 3100 3450 50  0001 C CNN
+F 3 "https://www.digikey.jp/ja/products/detail/vishay-semiconductor-opto-division/VSLY5850/2615286" H 3100 3450 50  0001 C CNN
+F 4 "https://www.digikey.jp/ja/products/detail/vishay-semiconductor-opto-division/VSLY5850/2615286" H 3100 3450 50  0001 C CNN "Buy"
+F 5 "https://www.digikey.jp/ja/products/detail/vishay-semiconductor-opto-division/VSLY5850/2615286" H 3100 3450 50  0001 C CNN "Vendor"
 	1    3100 3450
 	0    -1   -1   0   
 $EndComp
@@ -217,7 +243,9 @@ P 3000 3800
 F 0 "Q3" H 3204 3846 50  0000 L CNN
 F 1 "IRFML8244" H 3204 3755 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 3200 3900 50  0001 C CNN
-F 3 "~" H 3000 3800 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-06051/" H 3000 3800 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-06051/" H 3000 3800 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gI-06051/" H 3000 3800 50  0001 C CNN "Vendor"
 	1    3000 3800
 	1    0    0    -1  
 $EndComp
@@ -226,9 +254,11 @@ L Device:R R15
 U 1 1 613782B8
 P 3100 4150
 F 0 "R15" H 2900 4050 50  0000 L CNN
-F 1 "15 1/4W" H 2650 4150 50  0000 L CNN
+F 1 "15 1/8W" H 2650 4150 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3030 4150 50  0001 C CNN
-F 3 "~" H 3100 4150 50  0001 C CNN
+F 3 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-57AP" H 3100 4150 50  0001 C CNN
+F 4 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-57AP" H 3100 4150 50  0001 C CNN "Buy"
+F 5 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-57AP" H 3100 4150 50  0001 C CNN "Vendor"
 	1    3100 4150
 	-1   0    0    1   
 $EndComp
@@ -259,7 +289,9 @@ P 3000 2000
 F 0 "Q2" H 3204 2046 50  0000 L CNN
 F 1 "IRFML8244" H 3204 1955 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 3200 2100 50  0001 C CNN
-F 3 "~" H 3000 2000 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-06051/" H 3000 2000 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-06051/" H 3000 2000 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gI-06051/" H 3000 2000 50  0001 C CNN "Vendor"
 	1    3000 2000
 	1    0    0    -1  
 $EndComp
@@ -268,9 +300,11 @@ L Device:R R14
 U 1 1 61396CDA
 P 3100 2350
 F 0 "R14" H 2900 2250 50  0000 L CNN
-F 1 "15 1/4W" H 2650 2350 50  0000 L CNN
+F 1 "15 1/8W" H 2650 2350 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3030 2350 50  0001 C CNN
-F 3 "~" H 3100 2350 50  0001 C CNN
+F 3 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-57AP" H 3100 2350 50  0001 C CNN
+F 4 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-57AP" H 3100 2350 50  0001 C CNN "Buy"
+F 5 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-57AP" H 3100 2350 50  0001 C CNN "Vendor"
 	1    3100 2350
 	-1   0    0    1   
 $EndComp
@@ -338,7 +372,9 @@ P 5550 1600
 F 0 "D6" V 5596 1520 50  0000 R CNN
 F 1 "SFH213FA" V 5505 1520 50  0000 R CNN
 F 2 "LEDs:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 5550 1600 50  0001 C CNN
-F 3 "~" H 5550 1600 50  0001 C CNN
+F 3 "https://www.digikey.jp/ja/products/detail/osram-opto-semiconductors-inc/SFH-213-FA/2205882?s=N4IgTCBcDaIMoDEASYCMBmBBBEBdAvkA" H 5550 1600 50  0001 C CNN
+F 4 "https://www.digikey.jp/ja/products/detail/osram-opto-semiconductors-inc/SFH-213-FA/2205882?s=N4IgTCBcDaIMoDEASYCMBmBBBEBdAvkA" H 5550 1600 50  0001 C CNN "Buy"
+F 5 "https://www.digikey.jp/ja/products/detail/osram-opto-semiconductors-inc/SFH-213-FA/2205882?s=N4IgTCBcDaIMoDEASYCMBmBBBEBdAvkA" H 5550 1600 50  0001 C CNN "Vendor"
 	1    5550 1600
 	0    1    1    0   
 $EndComp
@@ -360,7 +396,9 @@ P 5850 1950
 F 0 "C4" V 6000 1950 50  0000 C CNN
 F 1 "0.01u" V 5700 1950 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5888 1800 50  0001 C CNN
-F 3 "~" H 5850 1950 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-13387/" H 5850 1950 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-13387/" H 5850 1950 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gP-13387/" H 5850 1950 50  0001 C CNN "Vendor"
 	1    5850 1950
 	0    1    1    0   
 $EndComp
@@ -372,6 +410,8 @@ F 0 "R17" V 6450 1200 50  0000 C CNN
 F 1 "220k" V 6550 1200 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 6480 1200 50  0001 C CNN
 F 3 "~" H 6550 1200 50  0001 C CNN
+F 4 "~" H 6550 1200 50  0001 C CNN "Buy"
+F 5 "~" H 6550 1200 50  0001 C CNN "Vendor"
 	1    6550 1200
 	0    1    1    0   
 $EndComp
@@ -382,7 +422,9 @@ P 6550 850
 F 0 "C5" V 6700 850 50  0000 C CNN
 F 1 "22p" V 6400 850 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6588 700 50  0001 C CNN
-F 3 "~" H 6550 850 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-13313/" H 6550 850 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-13313/" H 6550 850 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gP-13313/" H 6550 850 50  0001 C CNN "Vendor"
 	1    6550 850 
 	0    1    1    0   
 $EndComp
@@ -394,6 +436,8 @@ F 0 "R16" V 5450 2100 50  0000 C CNN
 F 1 "100k" V 5550 2100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5480 2100 50  0001 C CNN
 F 3 "~" H 5550 2100 50  0001 C CNN
+F 4 "~" H 5550 2100 50  0001 C CNN "Buy"
+F 5 "~" H 5550 2100 50  0001 C CNN "Vendor"
 	1    5550 2100
 	-1   0    0    1   
 $EndComp
@@ -409,7 +453,9 @@ P 6650 1850
 F 0 "U3" H 6994 1896 50  0000 L CNN
 F 1 "NJU7098" H 6994 1805 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering" H 6650 1250 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf" H 6650 1850 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-14988/" H 6650 1850 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-14988/" H 6650 1850 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gI-14988/" H 6650 1850 50  0001 C CNN "Vendor"
 	1    6650 1850
 	1    0    0    -1  
 $EndComp
@@ -498,7 +544,9 @@ P 5550 3500
 F 0 "D7" V 5596 3420 50  0000 R CNN
 F 1 "SFH213FA" V 5505 3420 50  0000 R CNN
 F 2 "LEDs:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 5550 3500 50  0001 C CNN
-F 3 "~" H 5550 3500 50  0001 C CNN
+F 3 "https://www.digikey.jp/ja/products/detail/osram-opto-semiconductors-inc/SFH-213-FA/2205882?s=N4IgTCBcDaIMoDEASYCMBmBBBEBdAvkA" H 5550 3500 50  0001 C CNN
+F 4 "https://www.digikey.jp/ja/products/detail/osram-opto-semiconductors-inc/SFH-213-FA/2205882?s=N4IgTCBcDaIMoDEASYCMBmBBBEBdAvkA" H 5550 3500 50  0001 C CNN "Buy"
+F 5 "https://www.digikey.jp/ja/products/detail/osram-opto-semiconductors-inc/SFH-213-FA/2205882?s=N4IgTCBcDaIMoDEASYCMBmBBBEBdAvkA" H 5550 3500 50  0001 C CNN "Vendor"
 	1    5550 3500
 	0    1    1    0   
 $EndComp
@@ -520,7 +568,9 @@ P 5850 3850
 F 0 "C6" V 6000 3850 50  0000 C CNN
 F 1 "0.01u" V 5700 3850 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5888 3700 50  0001 C CNN
-F 3 "~" H 5850 3850 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-13387/" H 5850 3850 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-13387/" H 5850 3850 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gP-13387/" H 5850 3850 50  0001 C CNN "Vendor"
 	1    5850 3850
 	0    1    1    0   
 $EndComp
@@ -532,6 +582,8 @@ F 0 "R19" V 6450 3100 50  0000 C CNN
 F 1 "220k" V 6550 3100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 6480 3100 50  0001 C CNN
 F 3 "~" H 6550 3100 50  0001 C CNN
+F 4 "~" H 6550 3100 50  0001 C CNN "Buy"
+F 5 "~" H 6550 3100 50  0001 C CNN "Vendor"
 	1    6550 3100
 	0    1    1    0   
 $EndComp
@@ -542,7 +594,9 @@ P 6550 2750
 F 0 "C7" V 6700 2750 50  0000 C CNN
 F 1 "22p" V 6400 2750 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6588 2600 50  0001 C CNN
-F 3 "~" H 6550 2750 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-13313/" H 6550 2750 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-13313/" H 6550 2750 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gP-13313/" H 6550 2750 50  0001 C CNN "Vendor"
 	1    6550 2750
 	0    1    1    0   
 $EndComp
@@ -554,6 +608,8 @@ F 0 "R18" V 5450 4000 50  0000 C CNN
 F 1 "100k" V 5550 4000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5480 4000 50  0001 C CNN
 F 3 "~" H 5550 4000 50  0001 C CNN
+F 4 "~" H 5550 4000 50  0001 C CNN "Buy"
+F 5 "~" H 5550 4000 50  0001 C CNN "Vendor"
 	1    5550 4000
 	-1   0    0    1   
 $EndComp
@@ -569,7 +625,9 @@ P 6650 3750
 F 0 "U4" H 6994 3796 50  0000 L CNN
 F 1 "NJU7098" H 6994 3705 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering" H 6650 3150 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf" H 6650 3750 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-14988/" H 6650 3750 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-14988/" H 6650 3750 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gI-14988/" H 6650 3750 50  0001 C CNN "Vendor"
 	1    6650 3750
 	1    0    0    -1  
 $EndComp
@@ -658,7 +716,9 @@ P 8200 1600
 F 0 "D8" V 8246 1520 50  0000 R CNN
 F 1 "SFH213FA" V 8155 1520 50  0000 R CNN
 F 2 "LEDs:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 8200 1600 50  0001 C CNN
-F 3 "~" H 8200 1600 50  0001 C CNN
+F 3 "https://www.digikey.jp/ja/products/detail/osram-opto-semiconductors-inc/SFH-213-FA/2205882?s=N4IgTCBcDaIMoDEASYCMBmBBBEBdAvkA" H 8200 1600 50  0001 C CNN
+F 4 "https://www.digikey.jp/ja/products/detail/osram-opto-semiconductors-inc/SFH-213-FA/2205882?s=N4IgTCBcDaIMoDEASYCMBmBBBEBdAvkA" H 8200 1600 50  0001 C CNN "Buy"
+F 5 "https://www.digikey.jp/ja/products/detail/osram-opto-semiconductors-inc/SFH-213-FA/2205882?s=N4IgTCBcDaIMoDEASYCMBmBBBEBdAvkA" H 8200 1600 50  0001 C CNN "Vendor"
 	1    8200 1600
 	0    1    1    0   
 $EndComp
@@ -680,7 +740,9 @@ P 8500 1950
 F 0 "C8" V 8650 1950 50  0000 C CNN
 F 1 "0.01u" V 8350 1950 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8538 1800 50  0001 C CNN
-F 3 "~" H 8500 1950 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-13387/" H 8500 1950 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-13387/" H 8500 1950 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gP-13387/" H 8500 1950 50  0001 C CNN "Vendor"
 	1    8500 1950
 	0    1    1    0   
 $EndComp
@@ -692,6 +754,8 @@ F 0 "R22" V 9100 1200 50  0000 C CNN
 F 1 "220k" V 9200 1200 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9130 1200 50  0001 C CNN
 F 3 "~" H 9200 1200 50  0001 C CNN
+F 4 "~" H 9200 1200 50  0001 C CNN "Buy"
+F 5 "~" H 9200 1200 50  0001 C CNN "Vendor"
 	1    9200 1200
 	0    1    1    0   
 $EndComp
@@ -702,7 +766,9 @@ P 9200 850
 F 0 "C10" V 9350 850 50  0000 C CNN
 F 1 "22p" V 9050 850 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9238 700 50  0001 C CNN
-F 3 "~" H 9200 850 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-13313/" H 9200 850 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-13313/" H 9200 850 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gP-13313/" H 9200 850 50  0001 C CNN "Vendor"
 	1    9200 850 
 	0    1    1    0   
 $EndComp
@@ -714,6 +780,8 @@ F 0 "R20" V 8100 2100 50  0000 C CNN
 F 1 "100k" V 8200 2100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 8130 2100 50  0001 C CNN
 F 3 "~" H 8200 2100 50  0001 C CNN
+F 4 "~" H 8200 2100 50  0001 C CNN "Buy"
+F 5 "~" H 8200 2100 50  0001 C CNN "Vendor"
 	1    8200 2100
 	-1   0    0    1   
 $EndComp
@@ -729,7 +797,9 @@ P 9300 1850
 F 0 "U5" H 9644 1896 50  0000 L CNN
 F 1 "NJU7098" H 9644 1805 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering" H 9300 1250 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf" H 9300 1850 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-14988/" H 9300 1850 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-14988/" H 9300 1850 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gI-14988/" H 9300 1850 50  0001 C CNN "Vendor"
 	1    9300 1850
 	1    0    0    -1  
 $EndComp
@@ -818,7 +888,9 @@ P 8200 3500
 F 0 "D9" V 8246 3420 50  0000 R CNN
 F 1 "SFH213FA" V 8155 3420 50  0000 R CNN
 F 2 "LEDs:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 8200 3500 50  0001 C CNN
-F 3 "~" H 8200 3500 50  0001 C CNN
+F 3 "https://www.digikey.jp/ja/products/detail/osram-opto-semiconductors-inc/SFH-213-FA/2205882?s=N4IgTCBcDaIMoDEASYCMBmBBBEBdAvkA" H 8200 3500 50  0001 C CNN
+F 4 "https://www.digikey.jp/ja/products/detail/osram-opto-semiconductors-inc/SFH-213-FA/2205882?s=N4IgTCBcDaIMoDEASYCMBmBBBEBdAvkA" H 8200 3500 50  0001 C CNN "Buy"
+F 5 "https://www.digikey.jp/ja/products/detail/osram-opto-semiconductors-inc/SFH-213-FA/2205882?s=N4IgTCBcDaIMoDEASYCMBmBBBEBdAvkA" H 8200 3500 50  0001 C CNN "Vendor"
 	1    8200 3500
 	0    1    1    0   
 $EndComp
@@ -840,7 +912,9 @@ P 8500 3850
 F 0 "C9" V 8650 3850 50  0000 C CNN
 F 1 "0.01u" V 8350 3850 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8538 3700 50  0001 C CNN
-F 3 "~" H 8500 3850 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-13387/" H 8500 3850 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-13387/" H 8500 3850 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gP-13387/" H 8500 3850 50  0001 C CNN "Vendor"
 	1    8500 3850
 	0    1    1    0   
 $EndComp
@@ -852,6 +926,8 @@ F 0 "R23" V 9100 3100 50  0000 C CNN
 F 1 "220k" V 9200 3100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9130 3100 50  0001 C CNN
 F 3 "~" H 9200 3100 50  0001 C CNN
+F 4 "~" H 9200 3100 50  0001 C CNN "Buy"
+F 5 "~" H 9200 3100 50  0001 C CNN "Vendor"
 	1    9200 3100
 	0    1    1    0   
 $EndComp
@@ -862,7 +938,9 @@ P 9200 2750
 F 0 "C11" V 9350 2750 50  0000 C CNN
 F 1 "22p" V 9050 2750 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9238 2600 50  0001 C CNN
-F 3 "~" H 9200 2750 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-13313/" H 9200 2750 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-13313/" H 9200 2750 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gP-13313/" H 9200 2750 50  0001 C CNN "Vendor"
 	1    9200 2750
 	0    1    1    0   
 $EndComp
@@ -874,6 +952,8 @@ F 0 "R21" V 8100 4000 50  0000 C CNN
 F 1 "100k" V 8200 4000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 8130 4000 50  0001 C CNN
 F 3 "~" H 8200 4000 50  0001 C CNN
+F 4 "~" H 8200 4000 50  0001 C CNN "Buy"
+F 5 "~" H 8200 4000 50  0001 C CNN "Vendor"
 	1    8200 4000
 	-1   0    0    1   
 $EndComp
@@ -889,7 +969,9 @@ P 9300 3750
 F 0 "U6" H 9644 3796 50  0000 L CNN
 F 1 "NJU7098" H 9644 3705 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering" H 9300 3150 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf" H 9300 3750 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-14988/" H 9300 3750 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-14988/" H 9300 3750 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gI-14988/" H 9300 3750 50  0001 C CNN "Vendor"
 	1    9300 3750
 	1    0    0    -1  
 $EndComp

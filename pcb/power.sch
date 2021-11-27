@@ -21,6 +21,8 @@ F 0 "Q1" V 3192 3000 50  0000 C CNN
 F 1 "IRLML6402" V 3101 3000 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 3050 2925 50  0001 L CIN
 F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 2850 3000 50  0001 L CNN
+F 4 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 2850 3000 50  0001 C CNN "Buy"
+F 5 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 2850 3000 50  0001 C CNN "Vendor"
 	1    2850 3000
 	0    -1   -1   0   
 $EndComp
@@ -32,6 +34,8 @@ F 0 "R1" V 2793 3400 50  0000 C CNN
 F 1 "10k" V 3000 3400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2930 3400 50  0001 C CNN
 F 3 "~" H 3000 3400 50  0001 C CNN
+F 4 "~" H 3000 3400 50  0001 C CNN "Buy"
+F 5 "~" H 3000 3400 50  0001 C CNN "Vendor"
 	1    3000 3400
 	0    1    1    0   
 $EndComp
@@ -44,7 +48,9 @@ P 3250 2700
 F 0 "J1" V 3312 2744 50  0000 L CNN
 F 1 "BATTERY1" V 3403 2744 50  0000 L CNN
 F 2 "Connectors_Molex:Molex_PicoBlade_53047-0210_02x1.25mm_Straight" H 3250 2700 50  0001 C CNN
-F 3 "~" H 3250 2700 50  0001 C CNN
+F 3 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4B5T" H 3250 2700 50  0001 C CNN
+F 4 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4B5T" H 3250 2700 50  0001 C CNN "Buy"
+F 5 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4B5T" H 3250 2700 50  0001 C CNN "Vendor"
 	1    3250 2700
 	0    -1   -1   0   
 $EndComp
@@ -64,7 +70,9 @@ P 4000 2700
 F 0 "J2" V 4062 2744 50  0000 L CNN
 F 1 "BATTERY2" V 4153 2744 50  0000 L CNN
 F 2 "Connectors_Molex:Molex_PicoBlade_53047-0210_02x1.25mm_Straight" H 4000 2700 50  0001 C CNN
-F 3 "~" H 4000 2700 50  0001 C CNN
+F 3 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4B5T" H 4000 2700 50  0001 C CNN
+F 4 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4B5T" H 4000 2700 50  0001 C CNN "Buy"
+F 5 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4B5T" H 4000 2700 50  0001 C CNN "Vendor"
 	1    4000 2700
 	0    -1   -1   0   
 $EndComp
@@ -106,6 +114,8 @@ F 0 "SW1" V 2804 3898 50  0000 L CNN
 F 1 "POWER_SWITCH" V 2895 3898 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2850 3750 50  0001 C CNN
 F 3 "~" H 2850 3750 50  0001 C CNN
+F 4 "~" H 2850 3750 50  0001 C CNN "Buy"
+F 5 "~" H 2850 3750 50  0001 C CNN "Vendor"
 	1    2850 3750
 	0    1    1    0   
 $EndComp
@@ -170,6 +180,8 @@ F 0 "R5" H 4920 3696 50  0000 L CNN
 F 1 "10k" V 4850 3600 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4780 3650 50  0001 C CNN
 F 3 "~" H 4850 3650 50  0001 C CNN
+F 4 "~" H 4850 3650 50  0001 C CNN "Buy"
+F 5 "~" H 4850 3650 50  0001 C CNN "Vendor"
 	1    4850 3650
 	1    0    0    -1  
 $EndComp
@@ -187,7 +199,9 @@ P 5350 3650
 F 0 "C2" H 5465 3696 50  0000 L CNN
 F 1 "0.1u" H 5465 3605 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5388 3500 50  0001 C CNN
-F 3 "~" H 5350 3650 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-13374/" H 5350 3650 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-13374/" H 5350 3650 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gP-13374/" H 5350 3650 50  0001 C CNN "Vendor"
 	1    5350 3650
 	1    0    0    -1  
 $EndComp
@@ -211,7 +225,9 @@ P 6300 3400
 F 0 "U1" H 6400 3500 50  0000 L CNN
 F 1 "NJU77701F" H 6250 3250 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 6200 3200 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmh6609.pdf" H 6300 3600 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-07103/" H 6300 3600 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-07103/" H 6300 3400 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gI-07103/" H 6300 3400 50  0001 C CNN "Vendor"
 	1    6300 3400
 	1    0    0    -1  
 $EndComp
@@ -307,7 +323,9 @@ P 3950 4500
 F 0 "R2" H 4020 4546 50  0000 L CNN
 F 1 "1k" V 3950 4450 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3880 4500 50  0001 C CNN
-F 3 "~" H 3950 4500 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gR-14122/" H 3950 4500 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gR-14122/" H 3950 4500 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gR-14122/" H 3950 4500 50  0001 C CNN "Vendor"
 	1    3950 4500
 	1    0    0    -1  
 $EndComp
@@ -318,7 +336,9 @@ P 3950 4800
 F 0 "D1" V 3989 4682 50  0000 R CNN
 F 1 "PWR_LED" V 3898 4682 50  0000 R CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 3950 4800 50  0001 C CNN
-F 3 "~" H 3950 4800 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-11879/" H 3950 4800 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-11879/" H 3950 4800 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gI-11879/" H 3950 4800 50  0001 C CNN "Vendor"
 	1    3950 4800
 	0    -1   -1   0   
 $EndComp
@@ -329,7 +349,9 @@ P 5000 4500
 F 0 "L1" V 5100 4450 50  0000 L CNN
 F 1 "10u" V 4950 4400 50  0000 L CNN
 F 2 "Resistors_SMD:R_1210_HandSoldering" H 5000 4500 50  0001 C CNN
-F 3 "~" H 5000 4500 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-14978/" H 5000 4500 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-14978/" H 5000 4500 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gP-14978/" H 5000 4500 50  0001 C CNN "Vendor"
 	1    5000 4500
 	0    -1   -1   0   
 $EndComp
@@ -340,7 +362,9 @@ P 5150 4800
 F 0 "C1" H 5265 4846 50  0000 L CNN
 F 1 "0.1u" H 5265 4755 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5188 4650 50  0001 C CNN
-F 3 "~" H 5150 4800 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-13374/" H 5150 4800 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-13374/" H 5150 4800 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gP-13374/" H 5150 4800 50  0001 C CNN "Vendor"
 	1    5150 4800
 	1    0    0    -1  
 $EndComp
@@ -363,6 +387,8 @@ F 0 "R3" V 4600 4500 50  0000 C CNN
 F 1 "10" V 4700 4500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4630 4500 50  0001 C CNN
 F 3 "~" H 4700 4500 50  0001 C CNN
+F 4 "~" H 4700 4500 50  0001 C CNN "Buy"
+F 5 "~" H 4700 4500 50  0001 C CNN "Vendor"
 	1    4700 4500
 	0    1    1    0   
 $EndComp
@@ -415,7 +441,9 @@ P 5650 4650
 F 0 "R6" V 5550 4650 50  0000 C CNN
 F 1 "1k" V 5650 4650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5580 4650 50  0001 C CNN
-F 3 "~" H 5650 4650 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gR-14122/" H 5650 4650 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gR-14122/" H 5650 4650 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gR-14122/" H 5650 4650 50  0001 C CNN "Vendor"
 	1    5650 4650
 	-1   0    0    1   
 $EndComp
@@ -426,7 +454,9 @@ P 5650 4950
 F 0 "R7" V 5550 4950 50  0000 C CNN
 F 1 "1k" V 5650 4950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5580 4950 50  0001 C CNN
-F 3 "~" H 5650 4950 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gR-14122/" H 5650 4950 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gR-14122/" H 5650 4950 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gR-14122/" H 5650 4950 50  0001 C CNN "Vendor"
 	1    5650 4950
 	-1   0    0    1   
 $EndComp
@@ -452,7 +482,9 @@ P 5900 4950
 F 0 "C3" H 6015 4996 50  0000 L CNN
 F 1 "0.1u" H 6015 4905 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5938 4800 50  0001 C CNN
-F 3 "~" H 5900 4950 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-13374/" H 5900 4950 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-13374/" H 5900 4950 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gP-13374/" H 5900 4950 50  0001 C CNN "Vendor"
 	1    5900 4950
 	1    0    0    -1  
 $EndComp
@@ -528,6 +560,8 @@ F 0 "R4" H 4920 3046 50  0000 L CNN
 F 1 "20k" V 4850 2950 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4780 3000 50  0001 C CNN
 F 3 "~" H 4850 3000 50  0001 C CNN
+F 4 "~" H 4850 3000 50  0001 C CNN "Buy"
+F 5 "~" H 4850 3000 50  0001 C CNN "Vendor"
 	1    4850 3000
 	1    0    0    -1  
 $EndComp
@@ -540,7 +574,9 @@ P 2150 4600
 F 0 "J3" H 2042 4275 50  0000 C CNN
 F 1 "VX07803-500" H 2042 4366 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2150 4600 50  0001 C CNN
-F 3 "~" H 2150 4600 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gM-15148/" H 2150 4600 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gM-15148/" H 2150 4600 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gM-15148/" H 2150 4600 50  0001 C CNN "Vendor"
 	1    2150 4600
 	-1   0    0    1   
 $EndComp
@@ -552,6 +588,8 @@ F 0 "J12" V 3646 3398 50  0000 L CNN
 F 1 "GND_PIN" V 3850 3200 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 3800 3350 50  0001 C CNN
 F 3 "~" H 3800 3350 50  0001 C CNN
+F 4 "~" H 3800 3350 50  0001 C CNN "Buy"
+F 5 "~" H 3800 3350 50  0001 C CNN "Vendor"
 	1    3800 3350
 	0    1    1    0   
 $EndComp
@@ -563,6 +601,8 @@ F 0 "J9" V 3296 3398 50  0000 L CNN
 F 1 "BATT_PIN" V 3500 3200 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 3450 3350 50  0001 C CNN
 F 3 "~" H 3450 3350 50  0001 C CNN
+F 4 "~" H 3450 3350 50  0001 C CNN "Buy"
+F 5 "~" H 3450 3350 50  0001 C CNN "Vendor"
 	1    3450 3350
 	0    1    1    0   
 $EndComp
@@ -594,7 +634,9 @@ P 700 4950
 F 0 "C14" H 815 4996 50  0000 L CNN
 F 1 "0.1u" H 815 4905 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 738 4800 50  0001 C CNN
-F 3 "~" H 700 4950 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-13374/" H 700 4950 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-13374/" H 700 4950 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gP-13374/" H 700 4950 50  0001 C CNN "Vendor"
 	1    700  4950
 	1    0    0    -1  
 $EndComp
@@ -605,7 +647,9 @@ P 1100 4950
 F 0 "C16" H 1215 4996 50  0000 L CNN
 F 1 "10u" H 1215 4905 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1138 4800 50  0001 C CNN
-F 3 "~" H 1100 4950 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-13161/" H 1100 4950 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-13161/" H 1100 4950 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gP-13161/" H 1100 4950 50  0001 C CNN "Vendor"
 	1    1100 4950
 	1    0    0    -1  
 $EndComp
@@ -633,7 +677,9 @@ P 700 5850
 F 0 "C15" H 815 5896 50  0000 L CNN
 F 1 "0.1u" H 815 5805 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 738 5700 50  0001 C CNN
-F 3 "~" H 700 5850 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-13374/" H 700 5850 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-13374/" H 700 5850 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gP-13374/" H 700 5850 50  0001 C CNN "Vendor"
 	1    700  5850
 	1    0    0    -1  
 $EndComp
@@ -644,7 +690,9 @@ P 1100 5850
 F 0 "C17" H 1215 5896 50  0000 L CNN
 F 1 "10u" H 1215 5805 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1138 5700 50  0001 C CNN
-F 3 "~" H 1100 5850 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-13161/" H 1100 5850 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-13161/" H 1100 5850 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gP-13161/" H 1100 5850 50  0001 C CNN "Vendor"
 	1    1100 5850
 	1    0    0    -1  
 $EndComp
@@ -694,7 +742,9 @@ P 700 6600
 F 0 "C18" H 815 6646 50  0000 L CNN
 F 1 "2.2u" H 815 6555 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 738 6450 50  0001 C CNN
-F 3 "~" H 700 6600 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-16077/" H 700 6600 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-16077/" H 700 6600 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gP-16077/" H 700 6600 50  0001 C CNN "Vendor"
 	1    700  6600
 	1    0    0    -1  
 $EndComp

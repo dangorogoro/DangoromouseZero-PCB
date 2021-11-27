@@ -20,7 +20,8 @@ P 3150 2550
 F 0 "D10" H 3143 2295 50  0000 C CNN
 F 1 "LED1" H 3143 2386 50  0000 C CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 3150 2550 50  0001 C CNN
-F 3 "~" H 3150 2550 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-11879/" H 3150 2550 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-11879/" H 3150 2550 50  0001 C CNN "Buy"
 	1    3150 2550
 	-1   0    0    1   
 $EndComp
@@ -31,7 +32,8 @@ P 2850 2550
 F 0 "R24" V 2643 2550 50  0000 C CNN
 F 1 "1k" V 2850 2550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2780 2550 50  0001 C CNN
-F 3 "~" H 2850 2550 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gR-14122/" H 2850 2550 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gR-14122/" H 2850 2550 50  0001 C CNN "Buy"
 	1    2850 2550
 	0    1    1    0   
 $EndComp
@@ -55,7 +57,8 @@ P 3150 2900
 F 0 "D11" H 3143 2645 50  0000 C CNN
 F 1 "LED2" H 3143 2736 50  0000 C CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 3150 2900 50  0001 C CNN
-F 3 "~" H 3150 2900 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-11879/" H 3150 2900 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-11879/" H 3150 2900 50  0001 C CNN "Buy"
 	1    3150 2900
 	-1   0    0    1   
 $EndComp
@@ -66,7 +69,8 @@ P 2850 2900
 F 0 "R25" V 2643 2900 50  0000 C CNN
 F 1 "1k" V 2850 2900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2780 2900 50  0001 C CNN
-F 3 "~" H 2850 2900 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gR-14122/" H 2850 2900 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gR-14122/" H 2850 2900 50  0001 C CNN "Buy"
 	1    2850 2900
 	0    1    1    0   
 $EndComp
@@ -88,7 +92,8 @@ P 3150 3250
 F 0 "D12" H 3143 2995 50  0000 C CNN
 F 1 "LED3" H 3143 3086 50  0000 C CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 3150 3250 50  0001 C CNN
-F 3 "~" H 3150 3250 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-11879/" H 3150 3250 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-11879/" H 3150 3250 50  0001 C CNN "Buy"
 	1    3150 3250
 	-1   0    0    1   
 $EndComp
@@ -99,7 +104,8 @@ P 2850 3250
 F 0 "R26" V 2643 3250 50  0000 C CNN
 F 1 "1k" V 2850 3250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2780 3250 50  0001 C CNN
-F 3 "~" H 2850 3250 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gR-14122/" H 2850 3250 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gR-14122/" H 2850 3250 50  0001 C CNN "Buy"
 	1    2850 3250
 	0    1    1    0   
 $EndComp
@@ -121,7 +127,8 @@ P 3150 3600
 F 0 "D13" H 3143 3345 50  0000 C CNN
 F 1 "LED4" H 3143 3436 50  0000 C CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 3150 3600 50  0001 C CNN
-F 3 "~" H 3150 3600 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-11879/" H 3150 3600 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-11879/" H 3150 3600 50  0001 C CNN "Buy"
 	1    3150 3600
 	-1   0    0    1   
 $EndComp
@@ -132,7 +139,8 @@ P 2850 3600
 F 0 "R27" V 2643 3600 50  0000 C CNN
 F 1 "1k" V 2850 3600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2780 3600 50  0001 C CNN
-F 3 "~" H 2850 3600 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gR-14122/" H 2850 3600 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gR-14122/" H 2850 3600 50  0001 C CNN "Buy"
 	1    2850 3600
 	0    1    1    0   
 $EndComp
@@ -154,7 +162,8 @@ P 3150 3950
 F 0 "D14" H 3143 3695 50  0000 C CNN
 F 1 "LED5" H 3143 3786 50  0000 C CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 3150 3950 50  0001 C CNN
-F 3 "~" H 3150 3950 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-11879/" H 3150 3950 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-11879/" H 3150 3950 50  0001 C CNN "Buy"
 	1    3150 3950
 	-1   0    0    1   
 $EndComp
@@ -165,7 +174,8 @@ P 2850 3950
 F 0 "R28" V 2643 3950 50  0000 C CNN
 F 1 "1k" V 2850 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2780 3950 50  0001 C CNN
-F 3 "~" H 2850 3950 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gR-14122/" H 2850 3950 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gR-14122/" H 2850 3950 50  0001 C CNN "Buy"
 	1    2850 3950
 	0    1    1    0   
 $EndComp
@@ -187,7 +197,8 @@ P 4750 2450
 F 0 "LS1" H 4920 2446 50  0000 L CNN
 F 1 "SMT-0440" H 4920 2355 50  0000 L CNN
 F 2 "PUI_Audio:SMT-0440-S-R" H 4750 2250 50  0001 C CNN
-F 3 "~" H 4740 2400 50  0001 C CNN
+F 3 "https://www.digikey.jp/ja/products/detail/pui-audio-inc/SMT-0440-S-R/5113609" H 4740 2400 50  0001 C CNN
+F 4 "https://www.digikey.jp/ja/products/detail/pui-audio-inc/SMT-0440-S-R/5113609" H 4750 2450 50  0001 C CNN "Buy"
 	1    4750 2450
 	1    0    0    -1  
 $EndComp
@@ -200,7 +211,8 @@ P 4450 3250
 F 0 "Q4" H 4641 3296 50  0000 L CNN
 F 1 "IRFML8244" H 4641 3205 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 4650 3350 50  0001 C CNN
-F 3 "~" H 4450 3250 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-06051/" H 4450 3250 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-06051/" H 4450 3250 50  0001 C CNN "Buy"
 	1    4450 3250
 	1    0    0    -1  
 $EndComp
@@ -211,7 +223,8 @@ P 4550 2900
 F 0 "R29" H 4620 2946 50  0000 L CNN
 F 1 "1k" H 4620 2855 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4480 2900 50  0001 C CNN
-F 3 "~" H 4550 2900 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gR-14122/" H 4550 2900 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gR-14122/" H 4550 2900 50  0001 C CNN "Buy"
 	1    4550 2900
 	1    0    0    -1  
 $EndComp
@@ -258,7 +271,8 @@ P 2850 4350
 F 0 "R30" V 2643 4350 50  0000 C CNN
 F 1 "1k" V 2850 4350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2780 4350 50  0001 C CNN
-F 3 "~" H 2850 4350 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gR-14122/" H 2850 4350 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gR-14122/" H 2850 4350 50  0001 C CNN "Buy"
 	1    2850 4350
 	0    1    1    0   
 $EndComp
@@ -282,7 +296,8 @@ P 3150 4350
 F 0 "D15" H 3143 4095 50  0000 C CNN
 F 1 "LED6" H 3143 4186 50  0000 C CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 3150 4350 50  0001 C CNN
-F 3 "~" H 3150 4350 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-11879/" H 3150 4350 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-11879/" H 3150 4350 50  0001 C CNN "Buy"
 	1    3150 4350
 	-1   0    0    1   
 $EndComp
@@ -293,7 +308,8 @@ P 6750 3300
 F 0 "SW2" V 6704 3448 50  0000 L CNN
 F 1 "Button1" V 6795 3448 50  0000 L CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_EVQP2" H 6750 3500 50  0001 C CNN
-F 3 "" H 6750 3500 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-06185/" H 6750 3500 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-06185/" H 6750 3300 50  0001 C CNN "Buy"
 	1    6750 3300
 	0    1    1    0   
 $EndComp
@@ -304,7 +320,8 @@ P 6350 3950
 F 0 "D16" H 6343 3695 50  0000 C CNN
 F 1 "ButtonLED1" H 6343 3786 50  0000 C CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 6350 3950 50  0001 C CNN
-F 3 "~" H 6350 3950 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-11879/" H 6350 3950 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-11879/" H 6350 3950 50  0001 C CNN "Buy"
 	1    6350 3950
 	0    -1   -1   0   
 $EndComp
@@ -315,7 +332,8 @@ P 6350 3650
 F 0 "R31" V 6143 3650 50  0000 C CNN
 F 1 "1k" V 6350 3650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 6280 3650 50  0001 C CNN
-F 3 "~" H 6350 3650 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gR-14122/" H 6350 3650 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gR-14122/" H 6350 3650 50  0001 C CNN "Buy"
 	1    6350 3650
 	-1   0    0    1   
 $EndComp
@@ -329,6 +347,7 @@ F 0 "R32" V 6543 3950 50  0000 C CNN
 F 1 "10k" V 6750 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 6680 3950 50  0001 C CNN
 F 3 "~" H 6750 3950 50  0001 C CNN
+F 4 "~" H 6750 3950 50  0001 C CNN "Buy"
 	1    6750 3950
 	-1   0    0    1   
 $EndComp
@@ -369,7 +388,8 @@ P 7700 3300
 F 0 "SW3" V 7654 3448 50  0000 L CNN
 F 1 "Button2" V 7745 3448 50  0000 L CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_EVQP2" H 7700 3500 50  0001 C CNN
-F 3 "" H 7700 3500 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-06185/" H 7700 3500 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-06185/" H 7700 3300 50  0001 C CNN "Buy"
 	1    7700 3300
 	0    1    1    0   
 $EndComp
@@ -380,7 +400,8 @@ P 7300 3950
 F 0 "D17" H 7293 3695 50  0000 C CNN
 F 1 "ButtonLED2" H 7293 3786 50  0000 C CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 7300 3950 50  0001 C CNN
-F 3 "~" H 7300 3950 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gI-11879/" H 7300 3950 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gI-11879/" H 7300 3950 50  0001 C CNN "Buy"
 	1    7300 3950
 	0    -1   -1   0   
 $EndComp
@@ -391,7 +412,8 @@ P 7300 3650
 F 0 "R33" V 7093 3650 50  0000 C CNN
 F 1 "1k" V 7300 3650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 7230 3650 50  0001 C CNN
-F 3 "~" H 7300 3650 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gR-14122/" H 7300 3650 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gR-14122/" H 7300 3650 50  0001 C CNN "Buy"
 	1    7300 3650
 	-1   0    0    1   
 $EndComp
@@ -405,6 +427,7 @@ F 0 "R34" V 7493 3950 50  0000 C CNN
 F 1 "10k" V 7700 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 7630 3950 50  0001 C CNN
 F 3 "~" H 7700 3950 50  0001 C CNN
+F 4 "~" H 7700 3950 50  0001 C CNN "Buy"
 	1    7700 3950
 	-1   0    0    1   
 $EndComp

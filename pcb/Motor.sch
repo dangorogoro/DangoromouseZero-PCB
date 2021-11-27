@@ -91,6 +91,8 @@ F 0 "C13" H 1150 4400 50  0000 L CNN
 F 1 "22u" H 1150 4200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1138 4150 50  0001 C CNN
 F 3 "~" H 1100 4300 50  0001 C CNN
+F 4 "~" H 1100 4300 50  0001 C CNN "Buy"
+F 5 "~" H 1100 4300 50  0001 C CNN "Vendor"
 	1    1100 4300
 	1    0    0    -1  
 $EndComp
@@ -101,7 +103,9 @@ P 800 4300
 F 0 "C12" H 850 4400 50  0000 L CNN
 F 1 "0.1u" H 850 4200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 838 4150 50  0001 C CNN
-F 3 "~" H 800 4300 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gP-13374/" H 800 4300 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gP-13374/" H 800 4300 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gP-13374/" H 800 4300 50  0001 C CNN "Vendor"
 	1    800  4300
 	1    0    0    -1  
 $EndComp
@@ -194,7 +198,9 @@ P 1050 2450
 F 0 "J5" H 1078 2426 50  0000 L CNN
 F 1 "Right_Motor" H 1078 2335 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B6B-XH-AM_1x06_P2.50mm_Vertical" H 1050 2450 50  0001 C CNN
-F 3 "~" H 1050 2450 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gC-12251/" H 1050 2450 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gC-12251/" H 1050 2450 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gC-12251/" H 1050 2450 50  0001 C CNN "Vendor"
 	1    1050 2450
 	-1   0    0    1   
 $EndComp
@@ -205,7 +211,9 @@ P 1050 1700
 F 0 "J4" H 1078 1676 50  0000 L CNN
 F 1 "Left_Motor" H 1078 1585 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B6B-XH-AM_1x06_P2.50mm_Vertical" H 1050 1700 50  0001 C CNN
-F 3 "~" H 1050 1700 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gC-12251/" H 1050 1700 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gC-12251/" H 1050 1700 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gC-12251/" H 1050 1700 50  0001 C CNN "Vendor"
 	1    1050 1700
 	-1   0    0    1   
 $EndComp
@@ -216,7 +224,9 @@ P 2650 1900
 F 0 "J8" H 2700 2317 50  0000 C CNN
 F 1 "DRV8835" H 2700 2226 50  0000 C CNN
 F 2 "Zero_Module:DRV8835Board" H 2650 1900 50  0001 C CNN
-F 3 "~" H 2650 1900 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gK-09848/" H 2650 1900 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gK-09848/" H 2650 1900 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gK-09848/" H 2650 1900 50  0001 C CNN "Vendor"
 	1    2650 1900
 	1    0    0    -1  
 $EndComp

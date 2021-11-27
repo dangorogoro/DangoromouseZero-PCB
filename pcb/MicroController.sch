@@ -142,7 +142,9 @@ P 4450 2600
 F 0 "J7" H 4500 4017 50  0000 C CNN
 F 1 "STM32F405Board" H 4500 3926 50  0000 C CNN
 F 2 "Zero_Module:STM32F405Board" H 4450 2600 50  0001 C CNN
-F 3 "~" H 4450 2600 50  0001 C CNN
+F 3 "https://strawberry-linux.com/catalog/items?code=32405" H 4450 2600 50  0001 C CNN
+F 4 "https://strawberry-linux.com/catalog/items?code=32405" H 4450 2600 50  0001 C CNN "Buy"
+F 5 "https://strawberry-linux.com/catalog/items?code=32405" H 4450 2600 50  0001 C CNN "Vendor"
 	1    4450 2600
 	1    0    0    -1  
 $EndComp

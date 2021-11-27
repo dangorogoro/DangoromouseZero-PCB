@@ -22,7 +22,8 @@ AR Path="/6169318F/6169683A" Ref="J10"  Part="1"
 F 0 "J10" H 3328 2126 50  0000 L CNN
 F 1 "UART" H 3328 2035 50  0000 L CNN
 F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 3300 2150 50  0001 C CNN
-F 3 "~" H 3300 2150 50  0001 C CNN
+F 3 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-0KNJ" H 3300 2150 50  0001 C CNN
+F 4 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-0KNJ" H 3300 2150 50  0001 C CNN "Buy"
 	1    3300 2150
 	1    0    0    -1  
 $EndComp
@@ -71,7 +72,8 @@ P 3300 2750
 F 0 "J11" H 3328 2726 50  0000 L CNN
 F 1 "ST_LINK" H 3328 2635 50  0000 L CNN
 F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 3300 2750 50  0001 C CNN
-F 3 "~" H 3300 2750 50  0001 C CNN
+F 3 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-0KNJ" H 3300 2750 50  0001 C CNN
+F 4 "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-0KNJ" H 3300 2750 50  0001 C CNN "Buy"
 	1    3300 2750
 	1    0    0    -1  
 $EndComp

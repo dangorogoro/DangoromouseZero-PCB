@@ -68,7 +68,9 @@ P 3050 1800
 F 0 "J6" H 3100 2117 50  0000 C CNN
 F 1 "L3GD20H" H 3100 2026 50  0000 C CNN
 F 2 "Zero_Module:L3GD20HBoard" H 3050 1800 50  0001 C CNN
-F 3 "~" H 3050 1800 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gK-15096/" H 3050 1800 50  0001 C CNN
+F 4 "https://akizukidenshi.com/catalog/g/gK-15096/" H 3050 1800 50  0001 C CNN "Buy"
+F 5 "https://akizukidenshi.com/catalog/g/gK-15096/" H 3050 1800 50  0001 C CNN "Vendor"
 	1    3050 1800
 	1    0    0    -1  
 $EndComp
